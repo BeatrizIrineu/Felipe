@@ -1,0 +1,33 @@
+.navegacao-header {
+    width: 100vw;
+    height: 80px;
+    background: linear-gradient(90.18deg, rgba(61, 61, 61, 0.2052) 0%, rgba(29, 29, 29, 0.285) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 0px 15px 15px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+}
+
+.navegacao-header--ul {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+#sobre-mim {
+    border: 1px solid #833EF1;
+    box-sizing: border-box;
+    border-radius: 35px;
+    height: 55px;
+    align-self: center;
+}
+
+#sobre-mim li {
+    margin-top: -11px;
+}
+
+li {
+    padding: 30px;
+    align-self: center;
+}
