@@ -7,6 +7,7 @@
     font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255, 0.7);
     display: flex;
+    justify-content: space-between;
 }
 
 .navegacao-header--ul {
@@ -24,10 +25,27 @@
 }
 
 #sobre-mim li {
-    margin-top: -11px;
+    color: #833EF1;
 }
 
 li {
-    padding: 30px;
     align-self: center;
+}
+
+@media screen and (min-width: 200px) {
+    #sobre-mim li {
+        margin-top: 6px;
+    }
+    li {
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #sobre-mim li {
+        margin-top: -11px;
+    }
+    li {
+        padding: 30px;
+    }
 }

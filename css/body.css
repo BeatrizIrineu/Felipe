@@ -1,9 +1,5 @@
 body {
-    background-color: #030303;
-}
-
-header {
-    height: 600px;
+    background-color: rgb(15, 15, 15);
 }
 
 main {
@@ -15,10 +11,36 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 50vh;
+}
+
+.enquadramento h1 {
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+    font-size: 45px;
+}
+
+#color {
+    color: #833EF1;
 }
 
 footer {
     background-color: #030303;
     height: 600px;
+}
+
+@media screen and (min-width: 200px) {
+    header {
+        height: 490px;
+    }
+    .enquadramento {
+        height: 29vh;
+        position: relative;
+        top: -38px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .enquadramento {
+        height: 50vh;
+    }
 }
